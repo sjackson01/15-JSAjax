@@ -11,7 +11,7 @@
     <!-- Script 15.8 - login.php -->
     <h1>Login</h1>
     <p id="results"></p>
-    <form action="login.php" method="post" id="login">
+    <form action="index.php" method="post" id="login">
       <p id="emailP">
         Email Address:
         <input type="email" name="email" id="email" />
