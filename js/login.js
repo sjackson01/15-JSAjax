@@ -7,7 +7,7 @@
 
 $(function() {
   // Hide all error messages:
-  $(".errorMessage").hid();
+  $(".errorMessage").hide();
 
   // Assign anevent handler to the form:
   $("#login").submit(function() {
