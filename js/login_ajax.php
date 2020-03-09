@@ -10,7 +10,7 @@ if (isset($_GET['email'], $_GET['password'])){
     if (isset($_GET['email'], FILTER_VALIDATE_EMAIL)){
 
         // Must match specific values:
-        if (($_GET['email'] == 'email@example.com') && ($_GET['password']) == 'testpass')){
+        if (($_GET['email'] == 'email@example.com') && ($_GET['password']) == 'testpass'){
             // Set a cookie, if you want or start a session
     
             // Indicate success 
